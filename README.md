@@ -15,4 +15,6 @@ Directory Traversal payloads
 
 Known Vulnerability Scanner signatures
 
+* **Project Link:** [Log-Hunter Project Files](./Log_Hunter_Project/README.md)
+
 Output: Generates a structured report detailing suspicious lines and summarizing the Top Attacker IP Addresses by count.
