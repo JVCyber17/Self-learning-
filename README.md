@@ -33,7 +33,7 @@ VPN/Proxy Detection: Alerts if the IP belongs to a data center (often used to ma
 
 JSON Parsing: Extracts and formats raw API data into readable intelligence.
 
-* **Project Link:** [self learning Project Files](./Threat_Intel_Project/README.md)
+* **Project:** Threat_Intel_Project
 
 Output: Produces a "Threat Intelligence Report" classifying the IP target as High Risk (Hosting/VPN) or Lower Risk (Residential).
 
@@ -51,4 +51,4 @@ Established secure log collection pipelines to ingest critical data sources, inc
 
 Used basic Search Processing Language (SPL) commands to validate successful log flow and index creation.
 
-* **Project Link:** [self learning Project Files](./Splunk_SOC_Setup_Main/README.md)
+* **Project:** Splunk_SOC_Setup_Main
