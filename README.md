@@ -51,4 +51,4 @@ Established secure log collection pipelines to ingest critical data sources, inc
 
 Used basic Search Processing Language (SPL) commands to validate successful log flow and index creation.
 
-* **Project Link:** [self learning Project Files](.//README.md)
+* **Project Link:** [self learning Project Files](./Splunk_SOC_Setup_Main/README.md)
