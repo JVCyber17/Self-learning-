@@ -15,7 +15,7 @@ Directory Traversal payloads
 
 Known Vulnerability Scanner signatures
 
-* **Project Link:** [Log-Hunter Project Files](./Log_Hunter_Project/README.md)
+* **Project Link:** [self learning Project Files](./Log_Hunter_Project/README.md)
 
 Output: Generates a structured report detailing suspicious lines and summarizing the Top Attacker IP Addresses by count.
 
@@ -33,6 +33,22 @@ VPN/Proxy Detection: Alerts if the IP belongs to a data center (often used to ma
 
 JSON Parsing: Extracts and formats raw API data into readable intelligence.
 
-* **Project Link:** [Threat Intel Project Files](./Threat_Intel_Project/README.md)
+* **Project Link:** [self learning Project Files](./Threat_Intel_Project/README.md)
 
 Output: Produces a "Threat Intelligence Report" classifying the IP target as High Risk (Hosting/VPN) or Lower Risk (Residential).
+
+&nbsp;
+
+3. Splunk SOC Setup (Log Ingestion and Administration)
+
+A foundational hands-on project demonstrating the deployment and configuration required to establish a working Security Information and Event Management (SIEM) environment using Splunk Enterprise.
+
+Functionality: Installed and configured the Splunk Indexer on an Ubuntu Linux virtual machine.
+
+Deployed and configured Universal Forwarders on separate Windows and Linux test systems.
+
+Established secure log collection pipelines to ingest critical data sources, including Windows Event Logs and standard Syslogs.
+
+Used basic Search Processing Language (SPL) commands to validate successful log flow and index creation.
+
+* **Project Link:** [self learning Project Files](.//README.md)
