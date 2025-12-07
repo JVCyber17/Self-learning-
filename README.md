@@ -52,3 +52,22 @@ Established secure log collection pipelines to ingest critical data sources, inc
 Used basic Search Processing Language (SPL) commands to validate successful log flow and index creation.
 
 * **Project:** Splunk_SOC_Setup_Main
+
+&nbsp;
+
+4. Cyber Shield (Prompt Engineering & AI Advisory)
+
+A project demonstrating rapid prototyping and the capability to transform a generic Large Language Model (LLM) into a highly specialized, structured advisory tool for complex cybersecurity domains.
+
+Functionality: 
+Persona Engineering: Programmed a custom Senior Consultant persona with a Master's-level authority using pure text instructions.
+
+Structured Advice: Enforces a rigid "Define, Risk, Mitigate" methodology for all responses, ensuring analytical depth instead of general information.
+
+Domain Specialization: Limits the focus to advanced areas including Network Defense, Cloud Security (AWS/Azure), and Incident Response (IR).
+
+Tool Deployment: Successfully deployed the custom-programmed bot on a public platform (Poe/GPTs) for external access and demonstration.
+
+* **Project:** Cyber_Shield_Project
+
+Output: A functional, specialized AI consultant that provides professional, structured analysis and strategic recommendations on complex cybersecurity challenges.
