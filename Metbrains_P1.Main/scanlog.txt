@@ -1,0 +1,6 @@
+====================
+Report for 8.8.8.8
+The target is online
+Hostname found. dns.google
+Open ports discovered. 443
+Owned by Google Public DNS located in Ashburn, United States
