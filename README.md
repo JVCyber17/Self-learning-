@@ -71,3 +71,24 @@ Tool Deployment: Successfully deployed the custom-programmed bot on a public pla
 * **Project:** Cyber_Shield_Project
 
 Output: A functional, specialized AI consultant that provides professional, structured analysis and strategic recommendations on complex cybersecurity challenges.
+
+&nbsp;
+
+5. Information Gathering Tool (Python Reconnaissance)
+
+A command line utility written in Python for ethical network reconnaissance and IP information collection. It automates the process of gathering preliminary intelligence on network targets for security assessments.
+
+Functionality:
+Validates command line input and performs automated network checks on a target IP address, including
+
+Connectivity checks to determine if the target is online 
+
+Reverse DNS Search to identify the hostname of the target 
+
+Port Discovery for common services like SSH and Web 
+
+Organization Lookup for geolocation and ownership data via API 
+
+* **Project:** Metbrains_P1.Main
+
+Output Results are displayed directly in the console and automatically appended to a structured scanlog text file for documentation.
