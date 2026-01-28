@@ -92,3 +92,16 @@ Organization Lookup for geolocation and ownership data via API
 * **Project:** Metbrains_P1.Main
 
 Output Results are displayed directly in the console and automatically appended to a structured scanlog text file for documentation.
+
+&nbsp;
+
+6. Automated NSE Reconnaissance
+
+This is a custom tool we built using the Nmap Scripting Engine to make the discovery phase much faster. It is a smart scanner that adapts its behavior based on the ports it finds so you don't have to run multiple manual commands.
+
+What it does:
+The tool is written in Lua and runs directly within the Nmap scan process for maximum efficiency. It uses specialized libraries to identify web services and extract page titles automatically. Actually, it also probes for hidden files like robots.txt to find sensitive directories that might be left exposed. Still, it doesn't just focus on the web. It pulls version data for every open port to help flag outdated or vulnerable servers that need patching.
+
+* **Project:** NSE script for collecting host and network based information.
+
+Output It produces a structured report inside your Nmap scan results that lists the target IP, service versions, and any web intelligence it gathered during the run.
