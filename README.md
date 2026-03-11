@@ -104,4 +104,52 @@ The tool is written in Lua and runs directly within the Nmap scan process for ma
 
 * **Project:** NSE script for collecting host and network based information.
 
-Output It produces a structured report inside your Nmap scan results that lists the target IP, service versions, and any web intelligence it gathered during the run.
+Output: It produces a structured report inside your Nmap scan results that lists the target IP, service versions, and any web intelligence it gathered during the run.
+
+&nbsp;
+
+7. Web Security Lab Practicals (Web Vulnerability Analysis)
+
+Hands on security lab exercises demonstrating common web application vulnerabilities using PortSwigger Web Security Academy. The project focuses on identifying, exploiting, and documenting real world web security flaws using an interception proxy.
+
+Functionality: Uses Burp Suite to capture and analyze HTTP requests while exploiting common vulnerabilities in controlled lab environments, including:
+
+Reflected Cross Site Scripting (XSS)
+SQL Injection vulnerabilities
+Directory Traversal / File Path Traversal attacks
+
+Tools and Environment
+
+Burp Suite Community Edition
+FoxyProxy for browser proxying
+Google Chrome / Firefox
+PortSwigger Web Security Academy Labs
+
+* **Project:** Web_Security_Lab_Practicals
+
+Output: Step by step documentation of each vulnerability including request capture, exploitation process, screenshots of successful attacks, and short mitigation recommendations aligned with OWASP best practices.
+
+&nbsp;
+
+8. Malware Analysis (Static Malware Investigation)
+
+A practical malware analysis project focused on examining suspicious executable files in a controlled virtual lab environment to understand how malicious software behaves and how it can be identified.
+
+Functionality: Performs static analysis on malware samples using specialized tools to investigate file structure, embedded strings, and system level behaviour indicators, including:
+
+VirusTotal scanning for multi engine threat detection
+PE file structure inspection using PEview and PE Explorer
+Packer identification using PEiD
+String extraction and Windows API inspection
+Analysis of imported DLL functions and executable metadata
+
+Tools and Environment
+
+VirtualBox / VMware isolated lab environment
+Windows virtual machine for malware analysis
+VirusTotal threat intelligence platform
+PEview, PEiD, and PE Explorer tools
+
+* **Project:** Malware_Analysis_Project
+
+Output: Generates structured analysis reports identifying malware characteristics such as detection ratios, suspicious strings, API usage, compilation timestamps, and potential malicious behaviour indicators.
